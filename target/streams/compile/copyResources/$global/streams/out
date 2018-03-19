@@ -1,0 +1,6 @@
+[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
+[0m[[0mdebug[0m] [0m	(/home/locus/kafka-manager/conf/consumer.properties,/home/locus/kafka-manager/target/scala-2.11/classes/consumer.properties)[0m
+[0m[[0mdebug[0m] [0m	(/home/locus/kafka-manager/conf/logger.xml,/home/locus/kafka-manager/target/scala-2.11/classes/logger.xml)[0m
+[0m[[0mdebug[0m] [0m	(/home/locus/kafka-manager/conf/routes,/home/locus/kafka-manager/target/scala-2.11/classes/routes)[0m
+[0m[[0mdebug[0m] [0m	(/home/locus/kafka-manager/conf/application.conf,/home/locus/kafka-manager/target/scala-2.11/classes/application.conf)[0m
+[0m[[0mdebug[0m] [0m	(/home/locus/kafka-manager/conf/logback.xml,/home/locus/kafka-manager/target/scala-2.11/classes/logback.xml)[0m
