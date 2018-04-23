@@ -64,7 +64,7 @@ Seq[Any](format.raw/*5.102*/("""
 object clusterMenu extends clusterMenu_Scope0.clusterMenu
               /*
                   -- GENERATED --
-                  DATE: Mon Mar 19 23:10:11 NZDT 2018
+                  DATE: Mon Apr 23 23:08:33 NZST 2018
                   SOURCE: /home/locus/kafka-manager/app/views/navigation/clusterMenu.scala.html
                   HASH: 700a3bc5f37cb4f7c7e4f854f88f303a7528c50d
                   MATRIX: 708->115|904->215|932->217|1422->680|1437->686|1497->725|1582->783|1597->789|1638->809|1736->880|1764->887|1823->919|1880->955|1912->960

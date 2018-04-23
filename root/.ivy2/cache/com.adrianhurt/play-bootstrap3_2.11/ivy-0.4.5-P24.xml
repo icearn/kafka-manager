@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0" xmlns:m="http://ant.apache.org/ivy/maven" xmlns:e="http://ant.apache.org/ivy/extra">
+	<info organisation="com.adrianhurt"
+		module="play-bootstrap3_2.11"
+		revision="0.4.5-P24"
+		status="release"
+		publication="20151120022431"
+	>
+		<license name="Apache License" url="https://github.com/adrianhurt/play-bootstrap3/blob/master/LICENSE" />
+		<description homepage="http://play-bootstrap3.herokuapp.com">
+		This is a collection of input helpers and field constructors for Play Framework 2 to render Bootstrap 3 HTML code.
+		</description>
+		<e:sbtTransformHash>5fecdb3bccc1eda9ffcca6f238894ad873146651</e:sbtTransformHash>
+	</info>
+	<configurations>
+		<conf name="default" visibility="public" description="runtime dependencies and master artifact can be used with this conf" extends="runtime,master"/>
+		<conf name="master" visibility="public" description="contains only the artifact published by this module itself, with no transitive dependencies"/>
+		<conf name="compile" visibility="public" description="this is the default scope, used if none is specified. Compile dependencies are available in all classpaths."/>
+		<conf name="provided" visibility="public" description="this is much like compile, but indicates you expect the JDK or a container to provide it. It is only available on the compilation classpath, and is not transitive."/>
+		<conf name="runtime" visibility="public" description="this scope indicates that the dependency is not required for compilation, but is for execution. It is in the runtime and test classpaths, but not the compile classpath." extends="compile"/>
+		<conf name="test" visibility="private" description="this scope indicates that the dependency is not required for normal use of the application, and is only available for the test compilation and execution phases." extends="runtime"/>
+		<conf name="system" visibility="public" description="this scope is similar to provided except that you have to provide the JAR which contains it explicitly. The artifact is always available and is not looked up in a repository."/>
+		<conf name="sources" visibility="public" description="this configuration contains the source artifact of this module, if any."/>
+		<conf name="javadoc" visibility="public" description="this configuration contains the javadoc artifact of this module, if any."/>
+		<conf name="optional" visibility="public" description="contains all optional dependencies"/>
+	</configurations>
+	<publications>
+		<artifact name="play-bootstrap3_2.11" type="jar" ext="jar" conf="master"/>
+	</publications>
+	<dependencies>
+		<dependency org="org.scala-lang" name="scala-library" rev="2.11.7" force="true" conf="compile->compile(*),master(compile);runtime->runtime(*)"/>
+		<dependency org="com.typesafe.play" name="twirl-api_2.11" rev="1.1.1" force="true" conf="compile->compile(*),master(compile);runtime->runtime(*)"/>
+		<dependency org="com.typesafe.play" name="play-server_2.11" rev="2.4.3" force="true" conf="compile->compile(*),master(compile);runtime->runtime(*)"/>
+		<dependency org="com.typesafe.play" name="play-test_2.11" rev="2.4.3" force="true" conf="test->runtime(*),master(compile)"/>
+		<dependency org="com.typesafe.play" name="play-netty-server_2.11" rev="2.4.3" force="true" conf="compile->compile(*),master(compile);runtime->runtime(*)"/>
+		<dependency org="com.typesafe.play" name="play-specs2_2.11" rev="2.4.3" force="true" conf="test->runtime(*),master(compile)"/>
+		<dependency org="org.webjars" name="jquery" rev="2.1.4" force="true" conf="compile->compile(*),master(compile);runtime->runtime(*)"/>
+		<dependency org="org.webjars" name="bootstrap" rev="3.3.5" force="true" conf="compile->compile(*),master(compile);runtime->runtime(*)">
+			<exclude org="org.webjars" module="jquery" name="*" type="*" ext="*" conf="" matcher="exact"/>
+		</dependency>
+	</dependencies>
+</ivy-module>

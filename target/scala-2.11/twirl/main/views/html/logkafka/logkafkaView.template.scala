@@ -72,7 +72,7 @@ Seq[Any](format.raw/*10.111*/("""
 object logkafkaView extends logkafkaView_Scope0.logkafkaView_Scope1.logkafkaView
               /*
                   -- GENERATED --
-                  DATE: Mon Mar 19 23:10:10 NZDT 2018
+                  DATE: Mon Apr 23 23:08:32 NZST 2018
                   SOURCE: /home/locus/kafka-manager/app/views/logkafka/logkafkaView.scala.html
                   HASH: 6e09cba3b3f3b84266d603e065656ed7ee221da5
                   MATRIX: 829->135|1217->447|1232->454|1313->458|1345->464|1359->469|1587->675|1630->444|1659->677|1688->680|1887->869|1928->871|1956->872|2251->1139|2284->1150|2318->1156|2348->1164|2405->1194|2437->1217|2578->1336|2610->1341|2655->1356

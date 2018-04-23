@@ -71,7 +71,7 @@ Seq[Any](format.raw/*11.75*/("""
 object resultsOfCommand extends resultsOfCommand_Scope0.resultsOfCommand_Scope1.resultsOfCommand
               /*
                   -- GENERATED --
-                  DATE: Mon Mar 19 23:10:11 NZDT 2018
+                  DATE: Mon Apr 23 23:08:33 NZST 2018
                   SOURCE: /home/locus/kafka-manager/app/views/common/resultsOfCommand.scala.html
                   HASH: 8b7d93c79ac30bb48f3edf9903878ca41a9b6691
                   MATRIX: 793->135|1153->419|1165->423|1270->451|1302->456|1453->580|1472->590|1497->594|1527->597|1546->607|1573->613|1630->416|1659->630|1688->633|1787->723|1827->725|1860->731|2006->850|2038->861|2090->886|2113->900|2234->999|2270->1008|2319->1027

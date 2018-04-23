@@ -85,7 +85,7 @@ Seq[Any](format.raw/*12.111*/("""
 object topicDeleteConfirm extends topicDeleteConfirm_Scope0.topicDeleteConfirm_Scope1.topicDeleteConfirm
               /*
                   -- GENERATED --
-                  DATE: Mon Mar 19 23:10:10 NZDT 2018
+                  DATE: Mon Apr 23 23:08:33 NZST 2018
                   SOURCE: /home/locus/kafka-manager/app/views/topic/topicDeleteConfirm.scala.html
                   HASH: 3f20a3a5c28abb49816cc74cfe15dbd4b5179f60
                   MATRIX: 924->224|1303->527|1318->534|1399->538|1431->544|1445->549|1679->761|1722->524|1751->763|1780->766|1987->963|2028->965|2056->966|2351->1233|2378->1238|2471->1304|2497->1309|2746->1531|2757->1533|2819->1586|2859->1588|2908->1609|2971->1645|2982->1647|3025->1669|3078->1695|3089->1697|3144->1743|3183->1744|3212->1745|3257->1759|3306->1780|3366->1809|3407->1822|3478->1863

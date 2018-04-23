@@ -84,7 +84,7 @@ Seq[Any](format.raw/*7.111*/("""
 object logkafkaList extends logkafkaList_Scope0.logkafkaList_Scope1.logkafkaList
               /*
                   -- GENERATED --
-                  DATE: Mon Mar 19 23:10:09 NZDT 2018
+                  DATE: Mon Apr 23 23:08:32 NZST 2018
                   SOURCE: /home/locus/kafka-manager/app/views/logkafka/logkafkaList.scala.html
                   HASH: 09e52cc7651d89dc942b770467cb69c6c6780c2b
                   MATRIX: 802->135|1124->382|1138->389|1218->393|1250->399|1264->404|1489->607|1514->612|1538->627|1619->631|1651->636|1743->700|1772->701|1808->710|1885->759|1914->760|1963->781|2061->851|2090->852|2126->861|2160->868|2188->869|2216->870|2274->379|2303->609|2332->888|2361->891|2567->1088|2607->1090|2639->1095|2809->1238|2834->1254|3032->1430|3068->1439|3117->1458
