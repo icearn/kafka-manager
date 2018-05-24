@@ -68,7 +68,7 @@ Seq[Any](format.raw/*5.102*/("""
 object pendingClusterList extends pendingClusterList_Scope0.pendingClusterList
               /*
                   -- GENERATED --
-                  DATE: Mon Apr 23 23:08:32 NZST 2018
+                  DATE: Thu May 24 21:33:02 NZST 2018
                   SOURCE: /home/locus/kafka-manager/app/views/cluster/pendingClusterList.scala.html
                   HASH: 7fcfd15b924434163eab3f9b62561622fb710c9d
                   MATRIX: 732->115|963->215|991->254|1018->256|1047->277|1086->279|1127->292|1386->524|1426->548|1466->550|1511->567|1568->597|1584->604|1610->609|1713->685|1729->692|1767->709|1843->754|1888->771|1949->802

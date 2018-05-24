@@ -56,7 +56,7 @@ Seq[Any](format.raw/*6.1*/("""<div class="panel panel-info">
 object configReferences extends configReferences_Scope0.configReferences
               /*
                   -- GENERATED --
-                  DATE: Mon Apr 23 23:08:32 NZST 2018
+                  DATE: Thu May 24 21:33:02 NZST 2018
                   SOURCE: /home/locus/kafka-manager/app/views/cluster/configReferences.scala.html
                   HASH: 136530648840b776986f93020ff004dbd9940d13
                   MATRIX: 748->115

@@ -84,7 +84,7 @@ Seq[Any](format.raw/*7.111*/("""
 object consumerList extends consumerList_Scope0.consumerList_Scope1.consumerList
               /*
                   -- GENERATED --
-                  DATE: Mon Apr 23 23:08:32 NZST 2018
+                  DATE: Thu May 24 21:33:02 NZST 2018
                   SOURCE: /home/locus/kafka-manager/app/views/consumer/consumerList.scala.html
                   HASH: 230a9db2bf22f7c81a4085d434203a053f0e5192
                   MATRIX: 752->135|1036->344|1050->351|1130->355|1162->361|1176->366|1413->581|1438->586|1462->601|1543->605|1575->610|1667->674|1696->675|1732->684|1808->732|1837->733|1886->754|1984->824|2013->825|2049->834|2083->841|2111->842|2139->843|2197->341|2226->583|2255->861|2284->864|2490->1061|2530->1063|2562->1068|2732->1211|2757->1227|2931->1380|2967->1389|3016->1408

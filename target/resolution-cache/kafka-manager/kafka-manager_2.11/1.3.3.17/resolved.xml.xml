@@ -4,7 +4,7 @@
 		module="kafka-manager_2.11"
 		revision="1.3.3.17"
 		status="integration"
-		publication="20180423231043"
+		publication="20180524213301"
 	>
 		<description>
 		kafka-manager

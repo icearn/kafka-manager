@@ -56,7 +56,7 @@ Seq[Any](format.raw/*5.74*/("""
 object onApiError extends onApiError_Scope0.onApiError
               /*
                   -- GENERATED --
-                  DATE: Mon Apr 23 23:08:33 NZST 2018
+                  DATE: Thu May 24 21:33:03 NZST 2018
                   SOURCE: /home/locus/kafka-manager/app/views/errors/onApiError.scala.html
                   HASH: 9ae212298b976193d61d881b64afc81bdbbafd10
                   MATRIX: 688->115|855->187|883->189|984->264|1000->272|1024->276|1055->282|1072->291|1084->295|1131->305|1163->310|1200->320|1213->324|1238->328|1268->331|1281->335|1308->341|1348->351|1376->352

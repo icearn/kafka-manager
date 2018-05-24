@@ -75,7 +75,7 @@ Seq[Any](format.raw/*13.111*/("""
 object topicView extends topicView_Scope0.topicView_Scope1.topicView
               /*
                   -- GENERATED --
-                  DATE: Mon Apr 23 23:08:33 NZST 2018
+                  DATE: Thu May 24 21:33:03 NZST 2018
                   SOURCE: /home/locus/kafka-manager/app/views/topic/topicView.scala.html
                   HASH: 6536a65a5037ffc123752c9501226c66655f8195
                   MATRIX: 934->234|1367->591|1382->598|1463->602|1495->608|1509->613|1743->825|1786->588|1815->827|1844->830|2031->1007|2072->1009|2100->1010|2395->1277|2422->1282|2479->1312|2508->1332|2713->1515|2745->1520|2790->1535
