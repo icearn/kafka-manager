@@ -71,7 +71,7 @@ Seq[Any](format.raw/*9.111*/("""
 object consumerView extends consumerView_Scope0.consumerView_Scope1.consumerView
               /*
                   -- GENERATED --
-                  DATE: Mon Apr 23 23:08:32 NZST 2018
+                  DATE: Thu May 24 21:33:02 NZST 2018
                   SOURCE: /home/locus/kafka-manager/app/views/consumer/consumerView.scala.html
                   HASH: d489ca7484423450432987af0d19db21850a26ee
                   MATRIX: 772->135|1099->386|1114->393|1195->397|1227->403|1241->408|1481->626|1523->383|1552->628|1581->631|1777->817|1818->819|1846->820|2141->1087|2171->1095|2228->1125|2260->1148|2380->1246|2412->1251|2457->1266

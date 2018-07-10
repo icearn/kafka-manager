@@ -65,7 +65,7 @@ Seq[Any](format.raw/*7.111*/("""
 object index extends index_Scope0.index_Scope1.index
               /*
                   -- GENERATED --
-                  DATE: Mon Apr 23 23:08:32 NZST 2018
+                  DATE: Thu May 24 21:33:02 NZST 2018
                   SOURCE: /home/locus/kafka-manager/app/views/index.scala.html
                   HASH: 2bb3af495754b29e2e12d87e6f78e88e2ca2cb56
                   MATRIX: 725->135|1020->334|1048->337|1278->558|1318->560|1346->561|1512->700|1536->715|1668->826|1705->836|1729->851|1852->953|1884->958|1929->973

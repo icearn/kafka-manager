@@ -64,7 +64,7 @@ Seq[Any](format.raw/*7.111*/("""
 object clusterView extends clusterView_Scope0.clusterView_Scope1.clusterView
               /*
                   -- GENERATED --
-                  DATE: Mon Apr 23 23:08:32 NZST 2018
+                  DATE: Thu May 24 21:33:02 NZST 2018
                   SOURCE: /home/locus/kafka-manager/app/views/cluster/clusterView.scala.html
                   HASH: bed3c03c894fd7ff0e80c4fd58445ad9ba9d383e
                   MATRIX: 751->135|1041->350|1055->357|1135->361|1167->367|1181->372|1422->591|1464->347|1493->593|1522->596|1698->762|1739->764|1767->765|1831->803|1858->821|1967->908|1995->909|2033->917

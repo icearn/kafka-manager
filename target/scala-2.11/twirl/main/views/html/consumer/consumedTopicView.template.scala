@@ -74,7 +74,7 @@ Seq[Any](format.raw/*11.111*/("""
 object consumedTopicView extends consumedTopicView_Scope0.consumedTopicView_Scope1.consumedTopicView
               /*
                   -- GENERATED --
-                  DATE: Mon Apr 23 23:08:32 NZST 2018
+                  DATE: Thu May 24 21:33:02 NZST 2018
                   SOURCE: /home/locus/kafka-manager/app/views/consumer/consumedTopicView.scala.html
                   HASH: 4dfc2017c0691a8b53c8435744b6bd1fda673919
                   MATRIX: 803->135|1175->431|1190->438|1271->442|1303->448|1317->453|1568->682|1611->428|1640->684|1669->687|1909->917|1950->919|1978->920|2273->1187|2303->1195|2333->1196|2364->1199|2391->1204|2448->1234|2482->1259|2613->1368|2645->1373|2690->1388

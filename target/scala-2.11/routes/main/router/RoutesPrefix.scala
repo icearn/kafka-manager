@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
 // @SOURCE:/home/locus/kafka-manager/conf/routes
-// @DATE:Mon Apr 23 23:08:31 NZST 2018
+// @DATE:Thu May 24 21:33:01 NZST 2018
 
 
 package router {

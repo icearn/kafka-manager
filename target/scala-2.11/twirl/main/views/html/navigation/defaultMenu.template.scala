@@ -64,7 +64,7 @@ Seq[Any](format.raw/*5.29*/("""
 object defaultMenu extends defaultMenu_Scope0.defaultMenu
               /*
                   -- GENERATED --
-                  DATE: Mon Apr 23 23:08:33 NZST 2018
+                  DATE: Thu May 24 21:33:03 NZST 2018
                   SOURCE: /home/locus/kafka-manager/app/views/navigation/defaultMenu.scala.html
                   HASH: d4a0defe52fa2033e674625e028e16582bcf7990
                   MATRIX: 657->115|779->142|806->143|1321->631|1336->637|1396->676|1481->734|1496->740|1537->760|1608->804|1636->811|1668->816
