@@ -72,6 +72,14 @@ case object Kafka_1_0_0 extends KafkaVersion {
   override def toString = "1.0.0"
 }
 
+case object Kafka_1_0_1 extends KafkaVersion {
+  override def toString = "1.0.1"
+}
+
+case object Kafka_1_1_0 extends KafkaVersion {
+  override def toString = "1.1.0"
+}
+
 object KafkaVersion {
   val supportedVersions: Map[String,KafkaVersion] = Map(
     "0.8.1.1" -> Kafka_0_8_1_1,
@@ -89,7 +97,9 @@ object KafkaVersion {
     "0.10.2.1" -> Kafka_0_10_2_1,
     "0.11.0.0" -> Kafka_0_11_0_0,
     "0.11.0.2" -> Kafka_0_11_0_2,
-    "1.0.0" -> Kafka_1_0_0
+    "1.0.0" -> Kafka_1_0_0,
+    "1.0.1" -> Kafka_1_0_1,
+    "1.1.0" -> Kafka_1_1_0
   )
 
   val formSelectList : IndexedSeq[(String,String)] = supportedVersions.toIndexedSeq.filterNot(_._1.contains("beta")).map(t => (t._1,t._2.toString)).sortWith((a, b) => sortVersion(a._1, b._1))
@@ -303,6 +313,9 @@ case class ClusterTuning(brokerViewUpdatePeriodSeconds: Option[Int]
                          , offsetCacheThreadPoolQueueSize: Option[Int]
                          , kafkaAdminClientThreadPoolSize: Option[Int]
                          , kafkaAdminClientThreadPoolQueueSize: Option[Int]
+                         , kafkaManagedOffsetMetadataCheckMillis: Option[Int]
+                         , kafkaManagedOffsetGroupCacheSize: Option[Int]
+                         , kafkaManagedOffsetGroupExpireDays: Option[Int]
                         )
 object ClusterTuning {
   import org.json4s._
@@ -330,6 +343,9 @@ object ClusterTuning {
         :: ("offsetCacheThreadPoolQueueSize" -> toJSON(tuning.offsetCacheThreadPoolQueueSize))
         :: ("kafkaAdminClientThreadPoolSize" -> toJSON(tuning.kafkaAdminClientThreadPoolSize))
         :: ("kafkaAdminClientThreadPoolQueueSize" -> toJSON(tuning.kafkaAdminClientThreadPoolQueueSize))
+        :: ("kafkaManagedOffsetMetadataCheckMillis" -> toJSON(tuning.kafkaManagedOffsetMetadataCheckMillis))
+        :: ("kafkaManagedOffsetGroupCacheSize" -> toJSON(tuning.kafkaManagedOffsetGroupCacheSize))
+        :: ("kafkaManagedOffsetGroupExpireDays" -> toJSON(tuning.kafkaManagedOffsetGroupExpireDays))
         :: Nil)
   }
 
@@ -351,6 +367,9 @@ object ClusterTuning {
         offsetCacheThreadPoolQueueSize <- fieldExtended[Option[Int]]("offsetCacheThreadPoolQueueSize")(json)
         kafkaAdminClientThreadPoolSize <- fieldExtended[Option[Int]]("kafkaAdminClientThreadPoolSize")(json)
         kafkaAdminClientThreadPoolQueueSize <- fieldExtended[Option[Int]]("kafkaAdminClientThreadPoolQueueSize")(json)
+        kafkaManagedOffsetMetadataCheckMillis <- fieldExtended[Option[Int]]("kafkaManagedOffsetMetadataCheckMillis")(json)
+        kafkaManagedOffsetGroupCacheSize <- fieldExtended[Option[Int]]("kafkaManagedOffsetGroupCacheSize")(json)
+        kafkaManagedOffsetGroupExpireDays <- fieldExtended[Option[Int]]("kafkaManagedOffsetGroupExpireDays")(json)
       } yield {
         ClusterTuning(
           brokerViewUpdatePeriodSeconds = brokerViewUpdatePeriodSeconds
@@ -368,6 +387,9 @@ object ClusterTuning {
           , offsetCacheThreadPoolQueueSize = offsetCacheThreadPoolQueueSize
           , kafkaAdminClientThreadPoolSize = kafkaAdminClientThreadPoolSize
           , kafkaAdminClientThreadPoolQueueSize = kafkaAdminClientThreadPoolQueueSize
+          , kafkaManagedOffsetMetadataCheckMillis = kafkaManagedOffsetMetadataCheckMillis
+          , kafkaManagedOffsetGroupCacheSize = kafkaManagedOffsetGroupCacheSize
+          , kafkaManagedOffsetGroupExpireDays = kafkaManagedOffsetGroupExpireDays
         )
       }
     }
